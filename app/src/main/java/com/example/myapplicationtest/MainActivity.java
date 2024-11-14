@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
 
         btn_move = findViewById(R.id.btn_move);
         et_test = findViewById(R.id.et_test);
-        et_test2 = findViewById(R.id.et_test2);
+        et_test2 = findViewById(R.id.et_test2); //et_test id 값 찾아오기
 
 
         btn_move.setOnClickListener(new View.OnClickListener() {
