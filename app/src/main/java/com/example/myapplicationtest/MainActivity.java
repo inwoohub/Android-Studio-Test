@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
                 intent.putExtra("str", str);
                 intent.putExtra("str2", str2);
                 startActivity(intent); //액티비티 이동
-                Toast.makeText(getApplicationContext(),"로그인 성공",Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(),"로그인 성공",Toast.LENGTH_SHORT).show(); //팝업
             }
         });
 
