@@ -1,0 +1,22 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id btn_move
+id et_test
+id et_test2
+id main
+id test
+id tv_sub
+id tv_sub2
+layout activity_main
+layout activity_sub
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Base.Theme.MyApplicationTest
+style Theme.MyApplicationTest
+xml backup_rules
+xml data_extraction_rules
