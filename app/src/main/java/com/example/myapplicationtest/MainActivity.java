@@ -31,7 +31,11 @@ public class MainActivity extends AppCompatActivity {
 
         btn_move = findViewById(R.id.btn_move);
         et_test = findViewById(R.id.et_test);
+<<<<<<< HEAD
         et_test2 = findViewById(R.id.et_test2);
+=======
+        et_test2 = findViewById(R.id.et_test2); //et_test id 값 찾아오기
+>>>>>>> 95641d1c483926f0dcb0db7a9237b46e6faac644
 
 
         btn_move.setOnClickListener(new View.OnClickListener() {
@@ -43,7 +47,11 @@ public class MainActivity extends AppCompatActivity {
                 intent.putExtra("str", str);
                 intent.putExtra("str2", str2);
                 startActivity(intent); //액티비티 이동
+<<<<<<< HEAD
                 Toast.makeText(getApplicationContext(),"로그인 성공",Toast.LENGTH_SHORT).show();
+=======
+                Toast.makeText(getApplicationContext(),"로그인 성공",Toast.LENGTH_SHORT).show(); //팝업
+>>>>>>> 95641d1c483926f0dcb0db7a9237b46e6faac644
             }
         });
 
@@ -57,4 +65,8 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 95641d1c483926f0dcb0db7a9237b46e6faac644
