@@ -9,7 +9,6 @@
     tools:context=".MainActivity">
 
 
-
     <EditText
         android:id="@+id/et_test"
         android:layout_width="200dp"
@@ -34,7 +33,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="left"
-        android:paddingStart="20dp"> //gravity는 정렬 padding은 공백 Left, Right, Top, Bottom 등이 있음
+        android:paddingStart="20dp"> //테스트 gravity는 정렬 padding은 공백 Left, Right, Top, Bottom 등이 있음
 
         <ImageView
             android:id="@+id/test"
